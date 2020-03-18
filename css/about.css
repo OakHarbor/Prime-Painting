@@ -4,10 +4,9 @@
 <--- -------------------------- -*/
 
 #hero {
-    min-height: 400px;
-    height: 400px;
-    height: 400px;
-    background: url('/images/img-4-compressor.jpg');
+    min-height: 200px;
+    height: 200px;
+    background: url('/images/new-home.png');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -25,9 +24,9 @@
 }
 
 #home-h {
-    width: 280px;
+    width: 100%;
     text-align: center;
-    font-size: 3.438em;
+    font-size: 2.438em;
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -39,15 +38,15 @@
         -ms-flex-align: center;
             align-items: center;
     z-index: 100;
-    height: 300px;
+    margin: auto;
 }
 
 #home-h:before {
     content: '';
     position: absolute;
-    width: 180px;
-    height: 200px;
-    border: 10px solid rgba(253,118,45, .4);
+    width: 140px;
+    height: 100px;
+    border: 10px solid rgba(19,117,188, .4);
     z-index: -1;
 }
 
@@ -107,7 +106,7 @@
 .right {
     height: 2px;
     width: 200px;
-    background: #f9f9f9;
+    background: var(--light);
 }
 
 .first-p {
@@ -141,7 +140,7 @@
 <--- -------------------------- -*/
 
 #qualities {
-    background: url("/images/img-6-compressor.jpg");
+    background: url("/images/paintbrush.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -262,7 +261,7 @@
     height: 400px;
     width: 100%;
     margin-bottom: 50px;
-    background: url("/images/img-5-compressor.jpg");
+    background: url("/images/pergola.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -331,7 +330,7 @@
     height: 400px;
     width: 100%;
     margin-bottom: 50px;
-    background: url("/images/img-7-compressor.jpg");
+    background: url("/images/room.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -508,7 +507,7 @@
 
     #hero {
         position: relative;
-        height: 700px;
+        height: 340px;
     }
 
     #home-h {
@@ -526,6 +525,10 @@
     /*-- -------------------------- -->
     <---         OUR STORY          -->
     <--- -------------------------- -*/
+
+    #our-story {
+        padding-top: 100px;
+    }
 
     .about-group h2 {
         margin-bottom: 15px;
@@ -817,7 +820,7 @@
 
     .about-container img {
         height: 400px;
-        width: 300px;
+        width: 350px;
     }
 
     .about-group {
