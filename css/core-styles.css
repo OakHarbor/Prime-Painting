@@ -425,7 +425,7 @@ h1, h2, h3, h4, h5, h6 {
 <--- -------------------------- -*/
 
 #contact-strip {
-    background:url("../images/img-3-compressor.jpg");
+    background:url("/images/room3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px 36px;
@@ -693,7 +693,7 @@ h1, h2, h3, h4, h5, h6 {
 
 	.side-nav ul li a:hover {
 		cursor: pointer;
-		color: #f5f5f5;
+		color: var(--primary);
 		opacity: .8;
 		-webkit-transition: .2s ease;
 		-o-transition: .2s ease;
