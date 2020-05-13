@@ -650,7 +650,7 @@
 <---           REVIEWS          -->
 <--- -------------------------- -*/
 
-#trust-us {
+#testimonies {
     background:url("../images/image-28.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -762,7 +762,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-#trust-us:before {
+#testimonies:before {
     content: '';
     height: 100.09%;
     width: 100%;
