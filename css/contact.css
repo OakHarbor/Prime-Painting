@@ -7,7 +7,7 @@
 #hero {
     min-height: 200px;
     height: 200px;
-    background: url('/images/new-home.png');
+    background: url('/images/contact-landing-mobile.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -327,9 +327,13 @@ form p{
     <--- -------------------------- -*/
 
     #hero {
+        background: url("/images/image-23.jpg");
         height: 600px;
         background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
         position: relative;
+        background-position: center;
     }
 
     #home-h {

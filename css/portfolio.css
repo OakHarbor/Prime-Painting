@@ -11,7 +11,7 @@ html {
 #hero {
     min-height: 200px;
     height: 200px;
-    background: url('/images/new-home.png');
+    background: url('/images/portfolio-landing-mobile');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -224,9 +224,13 @@ html.clicked {
 @media screen and (min-width: 1025px) {
 
     #hero {
+        background: url("/images/image-17.jpg");
         height: 600px;
         background-attachment: fixed;
         position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
     }
 
     #home-h {
@@ -272,6 +276,21 @@ html.clicked {
     .gallery img {
         width: 300px;
         margin: 15px;
+        -webkit-transition: .2s ease-in-out;
+        -o-transition: .2s ease-in-out;
+        transition: .2s ease-in-out;
+    }
+
+    .gallery img:hover {
+        -webkit-transform: scale(1.05);
+            -ms-transform: scale(1.05);
+                transform: scale(1.05);
+        -webkit-transition: .2s ease-in-out;
+        -o-transition: .2s ease-in-out;
+        transition: .2s ease-in-out;
+        -webkit-box-shadow: 0px 0px 65px -11px rgba(19,117,188,1);
+box-shadow: 0px 0px 65px -11px rgba(19,117,188,1);
+
     }
 
     .modal {

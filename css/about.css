@@ -6,7 +6,7 @@
 #hero {
     min-height: 200px;
     height: 200px;
-    background: url('/images/new-home.png');
+    background: url('/images/about-landing-mobile.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -261,7 +261,7 @@
     height: 400px;
     width: 100%;
     margin-bottom: 50px;
-    background: url("/images/pergola.jpg");
+    background: url("/images/image-2-crop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -330,7 +330,7 @@
     height: 400px;
     width: 100%;
     margin-bottom: 50px;
-    background: url("/images/room.jpg");
+    background: url("/images/image-20-crop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -773,9 +773,13 @@
     <--- -------------------------- -*/
 
     #hero {
+        background: url("/images/image-18.jpg");
         height: 600px;
         background-attachment: fixed;
         position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
     #home-h {
@@ -820,8 +824,8 @@
     }
 
     .about-container img {
-        height: 400px;
-        width: 350px;
+        height: 500px;
+        width: auto;
     }
 
     .about-group {
@@ -941,6 +945,8 @@
     }
 
     .right-square {
+        background: url("/images/image-2.jpg");
+        background-position: bottom;
         width: 50%;
         height: 700px;
         margin: 0;
@@ -999,6 +1005,9 @@
     }
 
     .left-square {
+        background: url("/images/image-20.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
         width: 50%;
         height: 700px;
         margin: 0;

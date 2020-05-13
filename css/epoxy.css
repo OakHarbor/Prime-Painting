@@ -2,6 +2,17 @@
 <---          LANDING           -->
 <--- -------------------------- -*/
 
+#hero {
+    background: url("/images/image-21.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+
+#home-h:before {
+    width: 200px;
+    height: 180px;
+}
 
 /*-- -------------------------- -->
 <---          CONTENT           -->
@@ -83,7 +94,26 @@ ul li {
     }
 
     #content {
-        margin-top: 200px;
+        margin-top: 100px;
+    }
+
+    .image-group {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        margin-top: 50px;
+    }
+
+    #content img {
+        width: 300px;
+        height: 300px;
     }
 
 }
@@ -95,6 +125,18 @@ ul li {
     <---           HERO             -->
     /*--- -------------------------- -*/
 
+    #hero {
+        height: 600px;
+    }
+
+    #home-h {
+        width: 500px;
+    }
+
+    #home-h:before {
+        width: 300px;
+        height: 220px;
+    }
 
     #content {
         margin-top: 200px;
@@ -120,8 +162,17 @@ ul li {
         -webkit-box-ordinal-group: 2;
             -ms-flex-order: 1;
                 order: 1;
-        width: 600px;
-        height: 398px;
+        width: 500px;
+        height: 500px;
+    }
+
+    .image-group {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
 
     .section {

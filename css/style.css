@@ -7,9 +7,10 @@
 #hero {
     height: 650px;
     width: 100%;
-    background: url("/images/landing.jpg");
+    background: url("/images/landing-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     color: #fff;
     position: relative;
     display: -webkit-box;
@@ -277,7 +278,7 @@
 <--- -------------------------- -*/
 
 .content {
-    background-attachment: url('/images/white-room.jpg');
+    background: url('/images/content-mobile.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 50px;
@@ -350,7 +351,6 @@
 
 .content:before {
     content: '';
-    opacity: .5;
     height: 100.09%;
     width: 100%;
     top: -1px;
@@ -361,6 +361,7 @@
     background: -o-radial-gradient(circle, var(--primary) 0%, rgba(45,180,253,1) 0%, var(--dark) 84%);
     background: radial-gradient(circle, var(--primary) 0%, rgba(45,180,253,1) 0%, var(--dark) 84%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#29a2e4",endColorstr="#175a7f",GradientType=1);
+    opacity: .9;
 }
 
 /*-- -------------------------- -->
@@ -406,19 +407,18 @@
 }
 
 .card:nth-child(1) {
-    background:url("../images/wood.jpg");
-    background-repeat: no-repeat;
+    background:url("../images/mobile-epoxy.jpg");
     background-size: cover;
 }
 
 .card:nth-child(2) {
-    background:url("../images/water.jpg");
+    background:url("../images/water-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .card:nth-child(3) {
-    background:url("../images/kitchen.jpg");
+    background:url("../images/kitchen-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -604,6 +604,7 @@
 }
 
 .gallery-group {
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -650,10 +651,11 @@
 <--- -------------------------- -*/
 
 #trust-us {
-    background:url("../images/yellow-house.jpg");
+    background:url("../images/image-28.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    background-position: center;
 }
 
 .review-group {
@@ -849,7 +851,6 @@
 <--- -------------------------- -*/
 
 #contact-strip {
-    background:url("../images/northwest.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px 36px;
@@ -914,6 +915,7 @@
 
     #home-h {
         width: 550px;
+        font-size: 3em;
     }
 
     #home-p {
@@ -1204,6 +1206,7 @@
     <--- -------------------------- -*/
 
     #hero {
+        background: url("/images/image-28.jpg");
         height: 800px;
         width: 100%;
         background-repeat: no-repeat;
@@ -1406,8 +1409,11 @@
     <--- -------------------------- -*/
 
     .content {
+        background: url("/images/image-4.jpg");
         padding-bottom: 200px;
         background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .why-item-container {
