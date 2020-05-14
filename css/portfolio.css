@@ -132,7 +132,18 @@ html {
 .moadl-eighteen,
 .modal-nineteen,
 .modal-twenty,
-.modal-twenty-one {
+.modal-twenty-one,
+.modal-twenty-two,
+.modal-twenty-three,
+.modal-twenty-four,
+.modal-twenty-five,
+.modal-twenty-six,
+.modal-twenty-seve,
+.modal-twenty-eight,
+.modal-twenty-nine,
+.modal-thirty,
+.modal-thirty-one,
+.modal-thirty-two {
     visibility: hidden;
     -webkit-transition: all .5s ease;
     -o-transition: all .5s ease;
@@ -161,7 +172,18 @@ html {
 .modal-eighteen.clicked,
 .modal-nineteen.clicked,
 .modal-twenty.clicked,
-.modal-twenty-one.clicked {
+.modal-twenty-one.clicked,
+.modal-twenty-two.clicked,
+.modal-twenty-three.clicked,
+.modal-twenty-four.clicked,
+.modal-twenty-five.clicked,
+.modal-twenty-six.clicked,
+.modal-twenty-seve.clicked,
+.modal-twenty-eight.clicked,
+.modal-twenty-nine.clicked,
+.modal-thirty.clicked,
+.modal-thirty-one.clicked,
+.modal-thirty-two.clicked {
     visibility: visible;
     margin: auto;
     z-index: 2000;
@@ -279,18 +301,6 @@ html.clicked {
         -webkit-transition: .2s ease-in-out;
         -o-transition: .2s ease-in-out;
         transition: .2s ease-in-out;
-    }
-
-    .gallery img:hover {
-        -webkit-transform: scale(1.05);
-            -ms-transform: scale(1.05);
-                transform: scale(1.05);
-        -webkit-transition: .2s ease-in-out;
-        -o-transition: .2s ease-in-out;
-        transition: .2s ease-in-out;
-        -webkit-box-shadow: 0px 0px 65px -11px rgba(19,117,188,1);
-box-shadow: 0px 0px 65px -11px rgba(19,117,188,1);
-
     }
 
     .modal {
