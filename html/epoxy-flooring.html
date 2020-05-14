@@ -24,6 +24,8 @@
 </head>
 <body>
 
+    <a class="skip" aria-label="skip to main content" href="index.html#main">Click To Skip To Main</a>
+
     <header>
         <!-- Desktop Navbar -->
         <div class="mobile-wrapper">
@@ -63,7 +65,7 @@
         </nav>
     </header>
 
-    <main>
+    <main id="main">
 
     <!-- ============================================ -->
     <!--                    LANDING                   -->
@@ -205,7 +207,7 @@
             </div>
             <div class="footer-item item-2">
                 <h2>Services</h2>
-                <div class="line"></div>
+                <div aria-hidden="true" class="line"></div>
                 <div class="item-content">
                     <p>Interior/Exterior</p>
                     <p>Pressure Washing</p>
@@ -216,9 +218,9 @@
             </div>
             <div class="footer-item item-3">
                 <h2>Navigation</h2>
-                <div class="line"></div>
+                <div aria-hidden="true" class="line"></div>
                 <div class="item-content">
-                    <p><a href="index.html">Home</a></p>
+                    <p><a href="/index.html">Home</a></p>
                     <p><a href="/html/about.html">About</a></p>
                     <p><a href="/html/services.html">Services</a></p>
                     <p><a href="/html/portfolio.html">Portfolio</a></p>
@@ -227,11 +229,11 @@
             </div>
             <div class="footer-item item-1">
                 <h2>Contact Us</h2>
-                <div class="line"></div>
+                <div aria-hidden="true" class="line"></div>
                 <div class="item-content">
-                    <p><i class="fas fa-phone-alt"></i>(702) 570-4222</p>
-                    <p><i class="fas fa-envelope"></i>frankie@primepaintinglv.com</p>
-                    <p><i class="fas fa-location-arrow"></i>Las Vegas, NV 89123</p>
+                    <p aria-label="call 702 570 4222"><i aria-hidden="true" class="fas fa-phone-alt"></i>(702) 570-4222</p>
+                    <p aria-label="email frankie@primepainting.com"><i aria-hidden="true" class="fas fa-envelope"></i>frankie@primepaintinglv.com</p>
+                    <p aria-label="located in las vegas nevada 89123"><i aria-hidden="true" class="fas fa-location-arrow"></i>Las Vegas, NV 89123</p>
                 </div>
             </div>
         </div>
