@@ -127,6 +127,11 @@ ul li {
 
     #hero {
         height: 600px;
+        background: url("/images/image-27.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
     }
 
     #home-h {

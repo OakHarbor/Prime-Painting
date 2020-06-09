@@ -77,7 +77,7 @@ var $modalTwentyEight = $(".modal-twenty-eight");
 var $modalTwentyNine = $(".modal-twenty-nine");
 var $modalThirty = $(".modal-thirty");
 var $modalThirtyOne = $(".modal-thirty-one");
-var $modalThirtyTwo = $(".modal-thirty-one");
+var $modalThirtyTwo = $(".modal-thirty-two");
 
 /* Images collected in variables */
 
@@ -115,7 +115,7 @@ var $twentyEight = $("#twenty-eight");
 var $twentyNine = $("#twenty-nine");
 var $thirty = $("#thirty");
 var $thirtyOne = $("#thirty-one");
-var $thirtyOne = $("#thirty-two");
+var $thirtyTwo = $("#thirty-two");
 
 /* Add Clicked Class */
 
@@ -274,7 +274,7 @@ $thirtyOne.on("click", function(e) {
   $html.addClass("clicked");
 });
 
-$twentyOne.on("click", function(e) {
+$thirtyTwo.on("click", function(e) {
   $modalThirtyTwo.addClass("clicked");
   $html.addClass("clicked");
 });
@@ -313,7 +313,7 @@ $homeIcon.on("click", function(e) {
   $modalTwentyNine.removeClass("clicked");
   $modalThirty.removeClass("clicked");
   $modalThirtyOne.removeClass("clicked");
-  $modalTwentyTwo.removeClass("clicked");
+  $modalThirtyTwo.removeClass("clicked");
 
   $html.removeClass("clicked");
 });

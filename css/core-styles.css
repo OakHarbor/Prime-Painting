@@ -926,6 +926,21 @@ footer p {
     margin-bottom: 0px;
 }
 
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media svg {
+    width: 30px !important;
+    height: auto;
+    margin-right: 10px;
+}
+
+.social-media svg:hover {
+    cursor: pointer;
+    opacity: .9;
+}
+
 .branding {
 	background: #041219;
 	padding-top: 40px;
