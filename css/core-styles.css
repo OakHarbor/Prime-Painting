@@ -345,6 +345,34 @@ h1, h2, h3, h4, h5, h6 {
 	visibility: hidden;
 }
 
+.social {
+    width: 30px !important;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.social-box {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+
+.social-box a {
+    margin-left: 20px;
+    display: block;
+}
+
+li.social {
+    display: none;
+    float: left;
+}
+
+#on-top .social {
+    width: 30px !important;
+    height: 30px;
+    display: none;
+}
+
 .active-menu {
 	border-right: 4px solid var(--primary);
 	color: var(--primary);
@@ -580,6 +608,7 @@ h1, h2, h3, h4, h5, h6 {
         display: block;
         color: #f5f3f3;
         background: var(--secondary);
+        margin-left: 20px;
     }
     
     .quote-nav-button:hover {
@@ -718,7 +747,23 @@ h1, h2, h3, h4, h5, h6 {
 
 	#on-top li  {
 		float: right;
-	}
+    }
+    
+     .social-li {
+        height: 30px !important;
+        margin-top: 0 !important;
+        margin-right: 15px !important;
+    }
+
+    .social-box {
+        display: none;
+    }
+    
+    #on-top .social {
+        height: 30px;
+        margin-top: 0;
+        display: block;
+    }
 
 	.active-menu {
 		border-right: none;
